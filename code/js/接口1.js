@@ -4,7 +4,7 @@
 在程序设计里面，接口起到一种限制和规范的作用。接口定义了某一批类所需要遵守的规范，接口不关心这些类的内部
 状态数据，也不关心这些类里面方法的实现细节，它只规定这批类里必须提供某些方法，
 提供这些方法的类就可以满足实际需要。ts中的接口类似java，同时还增加了更灵活的接口类型，包括属性，函数，可索引和类等
-接口是行为和动作的规范，对批量方法进行约束
+接口是行为和动作的。 规范，对批量方法进行约束
 */
 function print1(name) {
     // 用属性接口限制参数类型
@@ -14,7 +14,7 @@ function print1(name) {
 let obj = { firstName: 'cc', lastName: 'ee', age: 24 };
 print1(obj);
 let print2 = function (stuName, stuAge) {
-    return 'my prpfile' + stuName + stuAge;
+    return 'my profile' + stuName + stuAge;
 };
 console.log(print2('cc', 12));
 let stu = ['cc', 'ee', 'ff'];

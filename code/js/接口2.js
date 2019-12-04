@@ -5,7 +5,7 @@ class Doctor {
         this.name = name;
     }
     physician() {
-        console.log(this.name + 'is doing a puysician');
+        console.log(this.name + 'is doing a physician');
     }
 }
 class Chemist {

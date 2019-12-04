@@ -100,7 +100,7 @@ function decorateClass4(param:string){
 // 属性装饰器
 function decoratePoperty(param:any){
   return function(target:any,attr:any){
-    target[attr] = param
+    target[attr] = 'Lucy 呀'
   }
 }
 

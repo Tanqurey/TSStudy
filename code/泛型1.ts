@@ -1,5 +1,5 @@
 /*
-泛型：在软件工程中，我们不仅要创建一致店小二定义良好的API，同时也要考虑好可重用性。
+泛型：在软件工程中，我们不仅要创建一致定义良好的API，同时也要考虑好可重用性。
 组件不仅能够支持当前的数据类型，同时也能支持未来的数据类型，这在创建大型系统时为你
 提供了十分灵活的功能。
 
@@ -56,5 +56,5 @@ function test2<T>(val: T): T {
   return val
 }
 
-let myFn: ConfigFn2<string> = getData
+let myFn: ConfigFn2<string> = test2
 myFn('hello')

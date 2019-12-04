@@ -42,6 +42,7 @@ function decorateFn2(params: any) {
     // 2.替换或修改value
     desc.value = function(data: string) {
       console.log(data)
+      console.log('下面输出this:')
       console.log(this)
       // 在替换后的函数执行的同时执行原函数
       originMethod.apply(this)

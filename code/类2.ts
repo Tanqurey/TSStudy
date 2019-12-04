@@ -51,7 +51,7 @@ class Cat extends Animal {
   eat(): void {
     console.log(this.name + ' eat fish')
   }
-}
+} 
 
 let kitty = new Cat('Kitty')
 kitty.eat()
@@ -65,7 +65,7 @@ abstract抽象方法只能放在抽象类内
 */
 
 abstract class Standard {
-  // 可以包含非抽象方法，但必须包含至少一个非抽象方法
+  // 可以包含非抽象方法，但必须包含至少一个抽象方法
   name: string
   constructor(name: string) {
     this.name = name

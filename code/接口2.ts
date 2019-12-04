@@ -14,7 +14,7 @@ class Doctor {
     this.name = name
   }
   physician(): void {
-    console.log(this.name + 'is doing a puysician')
+    console.log(this.name + 'is doing a physician')
   }
 }
 

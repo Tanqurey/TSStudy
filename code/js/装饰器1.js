@@ -96,7 +96,7 @@ function decorateClass4(param) {
 // 属性装饰器
 function decoratePoperty(param) {
     return function (target, attr) {
-        target[attr] = param;
+        target[attr] = 'Lucy 呀';
     };
 }
 let Client4 = class Client4 {
